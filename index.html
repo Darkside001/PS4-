@@ -1,4 +1,4 @@
-<html manifest="nano.cache">
+<html manifest="Mini.cache">
     
 <head>
     <title>Auto GoldHEN Host</title>
@@ -63,7 +63,7 @@
      <script>
         window.applicationCache.ondownloading=function(){document.getElementById("progress").innerHTML="Cache de host iniciado!!";};
         window.applicationCache.onprogress=function(a){document.getElementById("progress").innerHTML=(Math.round(100*(a.loaded/a.total)))+"%";};
-        window.applicationCache.oncached=function(){document.getElementById("progress").innerHTML="Cache almacenado exitosamente!!";setTimeout(function(){document.getElementById("progress").innerHTML="Apaga el Internet & Abre de nuevo el navegador!!"; }, 1500);};
+        window.applicationCache.oncached=function(){document.getElementById("progress").innerHTML="Cache almacenado exitosamente!!";setTimeout(function(){document.getElementById("progress").innerHTML="Apaga el Internet y Abre de nuevo el navegador!!"; }, 1500);};
         window.applicationCache.onnoupdate=function(){setTimeout(webkitExploit,500);};
 	    window.applicationCache.onerror=function(){setTimeout(webkitExploit,500);};
 
