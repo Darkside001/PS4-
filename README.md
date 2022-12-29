@@ -1,3 +1,2 @@
 # PS4-
-Copia de Nano para mi  
-prueba
+MI Host particular 
